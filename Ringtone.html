@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Ringtone Provider</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="main.js" defer></script>
+
+</head>
+
+<body background="img/background.jpg">
+      <nav class="navbar-inverse my_nav_bar">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="#" class="navbar-brand">Ringtone Provider</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+            <li><a class="list" href="#About">About</a></li>
+            <li><a class="list" href="#Ringotnes">Ringtones</a></li>
+            <li><a class="list" href="#MYOPrices">Make Your Own Ringtones</a></li>
+            <li><a class="list" href="#HTORingtones">How To Add Ringtones</a></li>
+            <li><a class="list" href="#Queries">Queries</a></li>
+      </ul>
+    </div>
+    </nav>
+
+    <marquee id="text_moving" loop="∞"><b>Big Sale</b> is here - <b>50% off</b> on every <b>Make Your Own Ringtone</b></marquee>
+
+    <center>
+        <h2 class="page-header">Ringtones</h2>
+    </center>
+    <section class="container" id="Ringotnes">
+        <input type="text" placeholder="Search Ringtones" list="input">
+
+        <audio src="songs/todh-ringtone.mp3" id="song1"></audio>
+        <audio src="songs/Kesariya-Tera-Ishq-Hai-Piya.mp3" id="song2"></audio>
+        <audio src="songs/Kgf-Mother.mp3" id="song3"></audio>
+        <audio src="songs/Manike-Mage-Hithe.mp3" id="song4"></audio>
+        <audio src="songs/Let-Me-Down-Slowly-Bgm.mp3" id="song5"></audio>
+        <audio src="songs/You-Are-The-Shadow-To-My-Life.mp3" id="song6"></audio>
+        <audio src="songs/pata-nahi-kis-roop-mein-aakar.mp3" id="song7"></audio>
+        <audio src="songs/Sia-Unstoppable.mp3" id="song8"></audio>
+        <audio src="songs/Calm-Down-Calm-Down.mp3" id="song9"></audio>
+        <audio src="songs/Dard-Hai-Lakho-Duniya.mp3" id="song10"></audio>
+        <audio src="songs/Tu-Maan-Meri-Jaan.mp3" id="song11"></audio>
+        <audio src="songs/Wednesday-Addams.mp3" id="song12"></audio>
+        <audio src="songs/Mangal-Bhavan-Amangal-Hari.mp3" id="song13"></audio>
+        <audio src="songs/AlaVaikunthapurramuloo - ButtaBomma ! Telugu.mp3" id="song14"></audio>
+        <audio src="songs/Chhatire Poster - Natia Comedy.mp3" id="song15"></audio>
+        <audio src="songs/Nisha Nisha Rati.mp3" id="song16"></audio>
+        <audio src="songs/Nichatia Mana - Daman.mp3" id="song17"></audio>
+        <audio src="songs/Gua Ghia ! Odia ! Bunty R Samal ! Funny Angulia ! Khorda Toka ! Arua Ku Gua Ghia.mp3" id="song18"></audio>
+        <audio src="songs/Naacho Naacho.mp3" id="song19"></audio>
+        <audio src="songs/Me Tenu Samjhawan Ki - Humpty Sharma Ki Dulhania ! Hindi.mp3" id="song20"></audio>
+        <audio src="songs/Ramulo Ramula - Ala Vaikunthapurramuloo ! Hindi.mp3" id="song21"></audio>
+
+    <section class="container-reveal">
+    <div class="product-list" id="product-list">
+        <section>
+            
+            <div class="product">
+                <img src="img/play-button-icon-vector.jpg">
+                <div class="p-details">
+                    <h3>Mangal bhavan amangal hari Ringtone</h3>
+                    <div class="download_preview">
+                        <a href="https://drive.google.com/file/d/1aSkfx4oggbaH6y8Pj6m1roaw7DQgbpkn/view?usp=share_link"><button><b>Download</b></button></a>
+                        <button onclick=song13.play();><b>Preview</b></button>
+                        <button onclick="song13.pause();"><b>Stop</b></button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="product">
+                <img src="img/play-button-icon-vector.jpg">
+                <div class="p-details">
+                    <h3>Pata nahi kis roop mein aakar Ringtone</h3>
+                    <div class="download_preview">
+                        <a href="https://drive.google.com/file/d/1NDqcpnkokzEFuEjkycvzNMn5HNGHxGiX/view?usp=share_link"><button><b>Download</b></button></a>
+                        <button onclick="song7.play();"><b>Preview</b></button>
+                        <button onclick="song7.pause();"><b>Stop</b></button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="product">
+                <img src="img/play-button-icon-vector.jpg">
+                <div class="p-details">
+                    <h3>Nisha nisha rati Ringtone</h3>
+                    <div class="download_preview">
+                        <a href="https://drive.google.com/file/d/1K6G9-OvPlHuFTrY1zO0YJP6SdNvlZ0md/view?usp=share_link"><button><b>Download</b></button></a>
+                        <button onclick="song16.play();"><b>Preview</b></button>
+                        <button onclick="song16.pause();"><b>Stop</b></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="product">
+                <img src="img/play-button-icon-vector.jpg">
+                <div class="p-details">
+                    <h3>Chhatire poster Ringtone</h3>
+                    <div class="download_preview">
+                        <a href="https://drive.google.com/file/d/1Tbri7C5Q3RZTVMpVZGinXq5bgk6WCbiZ/view?usp=share_link"><button><b>Download</b></button></a>
+                        <button onclick="song15.play();"><b>Preview</b></button>
+                        <button onclick="song15.pause();"><b>Stop</b></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="product">
+                <img src="img/play-button-icon-vector.jpg">
+                <div class="p-details">
+                    <h3>Gua ghia Ringtone</h3>
+                    <div class="download_preview">
+                        <a href="https://drive.google.com/file/d/1bpt3evB1_k6hELTjaVK7T0dcAbMLdQnv/view?usp=share_link"><button><b>Download</b></button></a>
+                        <button onclick="song18.play();"><b>Preview</b></button>
+                        <button onclick="song18.pause();"><b>Stop</b></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="product">
+                <img src="img/play-button-icon-vector.jpg">
+                <div class="p-details">
+                    <h3>Nicchatia mana Ringtone</h3>
+                    <div class="download_preview">
+                        <a href="https://drive.google.com/file/d/1HaP5kiR240Sk-aNyJABRRL8sj9tSN59I/view?usp=share_link"><button><b>Download</b></button></a>
+                        <button onclick="song17.play();"><b>Preview</b></button>
+                        <button onclick="song17.pause();"><b>Stop</b></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="product">
+                <img src="img/play-button-icon-vector.jpg">
+                <div class="p-details">
+                    <h3>Todh Ringtone</h3>
+                    <div class="download_preview">
+                        <a href="https://drive.google.com/file/d/1ZvGLKVzYnFvD7vAg1X8IDzntPRG-pYb5/view?usp=share_link"><button><b>Download</b></button></a>
+                        <button onclick="song1.play();"><b>Preview</b></button>
+                        <button onclick="song1.pause();"><b>Stop</b></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="product">
+                <img src="img/play-button-icon-vector.jpg">
+                <div class="p-details">
+                    <h3>Kesariya Ringtone</h3>
+                    <div class="download_preview">
+                        <a href="https://drive.google.com/file/d/1nOCdOzOO29kzXX4AbZmLIuGmCjhskMD-/view?usp=share_link"><button><b>Download</b></button></a>
+                        <button onclick="song2.play();"><b>Preview</b></button>
+                        <button onclick="song2.pause();"><b>Stop</b></button>
+                    </div>
+                </div>
+            </div> 
+    
+            <div class="product">
+                <img src="img/play-button-icon-vector.jpg">
+                <div class="p-details">
+                    <h3>Dard hai lakho duniya Ringtone</h3>
+                    <div class="download_preview">
+                        <a href="https://drive.google.com/file/d/1_saQHJFBZk03IxomZT533fEcLRbuyzK9/view?usp=share_link"><button><b>Download</b></button></a>
+                        <button onclick="song10.play();"><b>Preview</b></button>
+                        <button onclick="song10.pause();"><b>Stop</b></button>
+                    </div>
+                </div>
+            </div> 
+    
+            <div class="product">
+                <img src="img/play-button-icon-vector.jpg">
+                <div class="p-details">
+                    <h3>Tu maan meri jaan Ringtone</h3>
+                    <div class="download_preview">
+                        <a href="https://drive.google.com/file/d/14UjU7buAlobJEp5z5Z28ll4opX2JCYkJ/view?usp=share_link"><button><b>Download</b></button></a>
+                        <button onclick="song11.play();"><b>Preview</b></button>
+                        <button onclick="song11.pause();"><b>Stop</b></button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="product">
+                <img src="img/play-button-icon-vector.jpg">
+                <div class="p-details">
+                    <h3>Ramulo ramula Ringtone</h3>
+                    <div class="download_preview">
+                        <a href="https://drive.google.com/file/d/1ULrcygAZwkdAcTmzyelUf_bGPXcnJXo9/view?usp=share_link"><button><b>Download</b></button></a>
+                        <button onclick="song21.play();"><b>Preview</b></button>
+                        <button onclick="song21.pause();"><b>Stop</b></button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="product">
+                <img src="img/play-button-icon-vector.jpg">
+                <div class="p-details">
+                    <h3>Me tenu samjhawanki Ringtone</h3>
+                    <div class="download_preview">
+                        <a href="https://drive.google.com/file/d/1ewbIZp-3FZ_WLviVGK3uAQWqpO5xFaUu/view?usp=share_link"><button><b>Download</b></button></a>
+                        <button onclick="song20.play();"><b>Preview</b></button>
+                        <button onclick="song20.pause();"><b>Stop</b></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="product">
+                <img src="img/play-button-icon-vector.jpg">
+                <div class="p-details">
+                    <h3>Naacho naacho Ringtone</h3>
+                    <div class="download_preview">
+                        <a href="https://drive.google.com/file/d/1-DrQn1AdSHVZHm12MsyJOn42wtf41VOP/view?usp=share_link"><button><b>Download</b></button></a>
+                        <button onclick="song19.play();"><b>Preview</b></button>
+                        <button onclick="song19.pause();"><b>Stop</b></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="product">
+                <img src="img/play-button-icon-vector.jpg">
+                <div class="p-details">
+                    <h3>Buttabomma Ringtone</h3>
+                    <div class="download_preview">
+                        <a href="https://drive.google.com/file/d/1FaUvE7lByKeYr17wUAEGWQ7hG6iF0HtH/view?usp=share_link"><button><b>Download</b></button></a>
+                        <button onclick="song14.play();"><b>Preview</b></button>
+                        <button onclick="song14.pause();"><b>Stop</b></button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="product">
+                <img src="img/play-button-icon-vector.jpg">
+                <div class="p-details">
+                    <h3>Kgf-Mother Ringtone</h3>
+                    <div class="download_preview">
+                        <a href="https://drive.google.com/file/d/1wDtpFJgFbYyB38M8PEKP3gOqDF-aoxN7/view?usp=share_link"><button><b>Download</b></button></a>
+                        <button onclick="song3.play();"><b>Preview</b></button>
+                        <button onclick="song3.pause();"><b>Stop</b></button>
+                    </div>
+                </div>
+            </div> 
+    
+            <div class="product">
+                <img src="img/play-button-icon-vector.jpg">
+                <div class="p-details">
+                    <h3>Manike mange hithe Ringtone</h3>
+                    <div class="download_preview">
+                        <a href="https://drive.google.com/file/d/1_7ykjkFcounn7Tps-aCmdkbbbKIv93EP/view?usp=share_link"><button><b>Download</b></button></a>
+                        <button onclick="song4.play();"><b>Preview</b></button>
+                        <button onclick="song4.pause();"><b>Stop</b></button>
+                    </div>
+                </div>
+            </div> 
+    
+            <div class="product">
+                <img src="img/play-button-icon-vector.jpg">
+                <div class="p-details">
+                    <h3>Let me down slowly Ringtone</h3>
+                    <div class="download_preview">
+                        <a href="https://drive.google.com/file/d/1VQCTSHvMdjT0zSrlNLT-8tn7ygDpavMw/view?usp=share_link"><button><b>Download</b></button></a>
+                        <button onclick="song5.play();"><b>Preview</b></button>
+                        <button onclick="song5.pause();"><b>Stop</b></button>
+                    </div>
+                </div>
+            </div> 
+    
+            <div class="product">
+                <img src="img/play-button-icon-vector.jpg">
+                <div class="p-details">
+                    <h3>Faded Ringtone</h3>
+                    <div class="download_preview">
+                        <a href="https://drive.google.com/file/d/10bD4BOxKOmyoIeqQzw5hfdQ060ttWvs_/view?usp=share_link"><button><b>Download</b></button></a>
+                        <button onclick="song6.play();"><b>Preview</b></button>
+                        <button onclick="song6.pause();"><b>Stop</b></button>
+                    </div>
+                </div>
+            </div> 
+    
+            <div class="product">
+                <img src="img/play-button-icon-vector.jpg">
+                <div class="p-details">
+                    <h3>Sia-Unstoppable Ringtone</h3>
+                    <div class="download_preview">
+                        <a href="https://drive.google.com/file/d/1Ny6YeVu5ezsOxPkDHS0SA1tqmThIgg6w/view?usp=share_link"><button><b>Download</b></button></a>
+                        <button onclick="song8.play();"><b>Preview</b></button>
+                        <button onclick="song8.pause();"><b>Stop</b></button>
+                    </div>
+                </div>
+            </div> 
+    
+            <div class="product">
+                <img src="img/play-button-icon-vector.jpg">
+                <div class="p-details">
+                    <h3>Calm down calm down Ringtone</h3>
+                    <div class="download_preview">
+                        <a href="https://drive.google.com/file/d/1fAyE771KHfifeRQlVOS1-ZjMQDorq6qm/view?usp=share_link"><button><b>Download</b></button></a>
+                        <button onclick="song9.play();"><b>Preview</b></button>
+                        <button onclick="song9.pause();"><b>Stop</b></button>
+                    </div>
+                </div>
+            </div> 
+    
+            <div class="product">
+                <img src="img/play-button-icon-vector.jpg">
+                <div class="p-details">
+                    <h3>Wednesday addams Ringtone</h3>
+                    <div class="download_preview">
+                        <a href="https://drive.google.com/file/d/1bf_JVrZClWBzq0KtiWPdI_v7VaHdRQVE/view?usp=share_link"><button><b>Download</b></button></a>
+                        <button onclick="song12.play();"><b>Preview</b></button>
+                        <button onclick="song12.pause();"><b>Stop</b></button>
+                    </div>
+                </div>
+            </div> 
+        </section>
+        
+    </div>
+    </section>
+    </section>
+
+<div id="myo">
+    <center>
+        <h2 class="page-header">Make Your Own Ringtone</h2>
+        <section id="MYOPrices" class="container-reveal">
+        <h3 class="animate"><b>Cost by materials provided :</b></h3>
+            <h4 class="animate">If you provide only music - Rs150(We will add customization as per you choice)</h4>
+            <h4 class="animate">If you provide all materials - Rs100(No customization added from our end)</h4>
+        <img class="animate" src="img/customize.webp">
+        <h3 class="animate"><b>Cost by time :</b></h3>
+            <h4 class="animate">If you want within an hour - +Rs100</h4>
+            <h4 class="animate">If you want within one day - +Rs80</h4>
+            <h4 class="animate">If you want within two days - +Rs50</h4>
+            <h4 class="animate">If you want within three days - +Rs20</h4>
+            <h4 class="animate">If you want within four days - No cost added</h4>
+        <img class="animate" src="img/Phone ring1.jpeg">
+        </section>
+    </center>
+</div>
+
+<center>
+    <h2 class="page-header">About</h2>
+    <section id="About" class="container-reveal">
+        <img src="img/Logo.JPG" class="animate1">
+        <p class="animate1">
+            This webapp provides you <b>stunning ringtones</b> which are very convinient to download
+            and totally safe.All ringtones can only be downloaded through <b>Google Drive</b>.So <b>Be
+            cool Have Ringtones</b>.
+        </p>
+    </section>
+</center>
+
+<div id="hta">
+    <center>
+        <h2 class="page-header">How to add ringtones</h2>
+        <section id="HTORingtones" class="container-reveal">
+            <div>
+                <h4 class="animate"><b>In IOS</b></h4>
+                <iframe class="animate" width="560" height="315" src="https://www.youtube.com/embed/WnY1onh5G0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>We Are Missing You.Come back online Again!</iframe>
+                <h4 class="animate"><b>In Android</b></h4>
+                <iframe class="animate" width="560" height="315" src="https://www.youtube.com/embed/bHqsgIET790" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>We Are Missing You.Come back online Again!</iframe>
+            </div>
+        </section>
+    </center>
+</div>
+
+<div id="queries">
+    <center>
+        <h2 class="page-header">Queries</h2>
+        <section id="Queries" class="container-reveal">
+            <div>
+                <h3>If any queries feel free to contact us :</h3>
+                <h4>Customer support no. - 123678232</h2>
+                <h4>Customer Support Email-ringtoneprovider@gmail.com</h2>
+            </div>
+        </section>
+    </center>
+
+    <center>
+    <footer class="copyright-footer">
+        © 2023 https://ringtone-provider.com All rights reserved
+    </footer>
+    </center>
+</div>
+</body>
+
+</html>
